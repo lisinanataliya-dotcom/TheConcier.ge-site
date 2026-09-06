@@ -30,10 +30,10 @@ button,a{font:inherit}
   background:
     linear-gradient(90deg,
       rgba(244,237,228,.98) 0%,
-      rgba(244,237,228,.94) 34%,
-      rgba(244,237,228,.76) 51%,
-      rgba(244,237,228,.18) 66%,
-      rgba(244,237,228,0) 79%),
+      rgba(244,237,228,.96) 40%,
+      rgba(244,237,228,.90) 58%,
+      rgba(244,237,228,.30) 74%,
+      rgba(244,237,228,0) 88%),
     linear-gradient(0deg,rgba(20,15,11,.12),transparent 35%);
 }
 .page{
@@ -86,7 +86,7 @@ button,a{font:inherit}
 
 .copy{
   align-self:center;
-  width:min(760px,54vw);
+  width:min(740px,50vw);
   margin-top:1vh;
 }
 h1{
@@ -108,7 +108,7 @@ h1{
 }
 
 .services{
-  width:min(800px,58vw);
+  width:min(760px,52vw);
   display:grid;
   grid-template-columns:repeat(5,minmax(0,1fr));
   gap:0;
@@ -184,7 +184,7 @@ h1{
   margin:0 4px;
 }
 
-html[lang="ru"] .copy{width:min(770px,56vw)}
+html[lang="ru"] .copy{width:min(750px,52vw)}
 html[lang="ru"] h1{max-width:680px}
 html[lang="ru"] .service span{letter-spacing:.075em}
 
